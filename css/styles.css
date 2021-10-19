@@ -23,10 +23,10 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds - light gray #f9fafe
-- Headings text - black #191e47
+- Backgrounds - light gray #fffffa
+- Headings text - black #383334
 - Body text - dark gray #6c717b
-- Buttons, icons - blue #4555d2
+- Buttons, icons - blue #F58635
 - Buttons, icons, bullets - red #cc2973
 ******************************************/
 
@@ -46,7 +46,7 @@ body, p {
 }
 
 h1 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
@@ -54,7 +54,7 @@ h1 {
 }
 
 h2 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 2.5rem;
@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
@@ -70,21 +70,21 @@ h3 {
 }
 
 h4 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2rem;
 }
 
 h5 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
 }
 
 h6 {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.375rem;
@@ -133,19 +133,19 @@ a:hover {
 }
 
 .blue {
-	color: #4555d2;
+	color: #F58635;
 }
 
 .bg-gray {
-	background-color: #f9fafe;
+	background-color: #fffffa;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #4555d2;
+	border: 1px solid #F58635;
 	border-radius: 30px;
-	background-color: #4555d2;
+	background-color: #F58635;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -156,16 +156,16 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #4555d2; /* needs to stay here because of the color property of a tag */
+	color: #F58635; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #4555d2;
+	border: 1px solid #F58635;
 	border-radius: 30px;
-	background-color: #4555d2;
+	background-color: #F58635;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -176,7 +176,7 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #4555d2; /* needs to stay here because of the color property of a tag */
+	color: #F58635; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -279,9 +279,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #4555d2;
+	border: 1px solid #F58635;
 	border-radius: 30px;
-	background-color: #4555d2;
+	background-color: #F58635;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -291,9 +291,9 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-	border: 1px solid #4555d2;
+	border: 1px solid #F58635;
 	background-color: transparent;
-	color: #4555d2;
+	color: #F58635;
 }
 
 
@@ -314,12 +314,12 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    width: 124px;
-	height: 32px;
+    width: 100px;
+		margin: 6px;
 }
 
 .navbar .logo-text {
-	color: #191e47;
+	color: #383334;
 	font-weight: 700;
 	font-size: 1.875rem;
 	line-height: 1rem;
@@ -356,7 +356,7 @@ a:hover {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #191e47;
+	color: #383334;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -364,7 +364,7 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #4555d2;
+	color: #F58635;
 }
 
 /* Dropdown Menu */
@@ -392,7 +392,7 @@ a:hover {
 .navbar .dropdown-item {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #191e47;
+	color: #383334;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -401,7 +401,7 @@ a:hover {
 
 .navbar .dropdown-item:hover {
 	background-color: #ffffff;
-	color: #4555d2;
+	color: #F58635;
 }
 
 .navbar .dropdown-divider {
@@ -430,6 +430,11 @@ a:hover {
 	padding-bottom: 4em;
 	background-color: #ffffff;
 	text-align: center;
+}
+
+.decoration-star, .decoration-star-2 {
+	filter: hue-rotate(90deg);
+	opacity: .4 !important;
 }
 
 .header .decoration-star {
@@ -491,7 +496,7 @@ a:hover {
 
 .counter .purecounter {
 	margin-bottom: 1.5rem;
-	color: #191e47;
+	color: #383334;
 	font-weight: 400;
 	font-size: 4rem;
 	line-height: 2rem;
@@ -869,12 +874,12 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack .fa-stack-1x {
-	color: #4555d2;
+	color: #F58635;
 	transition: all 0.2s ease;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-	color: #4555d2;
+	color: #F58635;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -945,7 +950,7 @@ a:hover {
 
 .ex-basic-1 .text-box {
 	padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-	background-color: #f9fafe;
+	background-color: #fffffa;
 }
 
 .ex-cards-1 .card {
