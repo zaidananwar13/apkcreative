@@ -983,6 +983,9 @@ a:hover {
 	margin-bottom: 0.5rem;
 }
 
+.img-fluid-custom {
+	display: none;
+}
 
 /*************************/
 /*     Media Queries     */
@@ -1052,6 +1055,9 @@ a:hover {
 
 /* Min-width 992px */
 @media (min-width: 992px) {
+	.img-fluid-custom {
+		display: inline-block;
+	}
 	
 	/* General Styles */
 	.h2-heading {
